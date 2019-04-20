@@ -1,0 +1,6 @@
+{
+  "name": "@my-npm-scope/web",
+  "version": "1.0.0",
+  "main": "index",
+  "typings": "index.d.ts"
+}

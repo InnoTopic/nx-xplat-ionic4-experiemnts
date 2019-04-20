@@ -7,5 +7,18 @@
     "tslint.json": "*",
     "nx.json": "*"
   },
-  "projects": {}
+  "projects": {
+    "libs": {
+      "tags": []
+    },
+    "xplat": {
+      "tags": []
+    },
+    "ionic-appname": {
+      "tags": []
+    },
+    "ionic-ionicapp2": {
+      "tags": []
+    }
+  }
 }

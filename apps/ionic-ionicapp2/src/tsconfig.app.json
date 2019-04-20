@@ -1,0 +1,16 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "../out-tsc/app",
+    "module": "es2015",
+    "baseUrl": "./",
+    "paths": {
+      "@my-npm-scope/*": ["../../../libs/*"],
+      "@my-npm-scope/ionic": ["../../../xplat/ionic/index.ts"],
+      "@my-npm-scope/ionic/*": ["../../../xplat/ionic/*"],
+      "@my-npm-scope/web": ["../../../xplat/web/index.ts"],
+      "@my-npm-scope/web/*": ["../../../xplat/web/*"]
+    }
+  },
+  "exclude": ["test.ts", "**/*.spec.ts"]
+}
